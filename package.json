@@ -1,0 +1,33 @@
+{
+  "name": "parse-times",
+  "version": "1.5.0",
+  "description": "Simple parsing times and get complete times",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaadevofc/parse-times.git"
+  },
+  "keywords": [
+    "get",
+    "moment",
+    "id",
+    "locale",
+    "parse",
+    "time",
+    "parse-times",
+    "nodejs"
+  ],
+  "author": "zaadevofc",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/zaadevofc/parse-times/issues"
+  },
+  "homepage": "https://github.com/zaadevofc/parse-times#readme",
+  "dependencies": {
+    "country-emoji": "^1.5.6",
+    "moment": "^2.29.4"
+  }
+}
