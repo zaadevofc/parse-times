@@ -32,6 +32,13 @@ const parseTimes = require("parse-times");
 
 see [example.js](https://github.com/zaadevofc/img-to-url/blob/master/example.js) for details.
 
+## Set Locale Time
+
+if you want to change the region, you must read the documentation [MomentJs](https://momentjs.com/).
+```js
+parseTimes.set('id') // Default => "id"
+````
+
 ## Get default Time
 ```js
 const getTime = parseTimes.getTime() // Time Result => Object
